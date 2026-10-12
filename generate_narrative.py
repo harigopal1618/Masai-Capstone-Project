@@ -21,7 +21,7 @@ def generate_scr_narrative(findings: dict) -> dict:
     """
     try:
         # 1. Initialize the GenAI Client with a timeout option in seconds (15.0s)
-        api_key = userdata.get('HARI_API_KEY')
+        api_key = userdata.get('YOUR_API_KEY')
         client = genai.Client(
             api_key=api_key,
             http_options={'timeout': 15000}
