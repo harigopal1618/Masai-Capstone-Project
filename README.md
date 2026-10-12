@@ -34,4 +34,7 @@ submission/
 - Task 5 generates the findings.json file required for Part 3. The file generated while making the project is uploaded in this repo.
 
 - # Part 3 — GenAI-Powered Insight Narrator
-- Import generate_narrative.ipynb into a new google colab notebook. Grader will need to paste their own API key in place of 'YOUR_API_KEY' in the code cell for Task 2. This will make it an environment variable. 
+- Import generate_narrative.ipynb into a new google colab notebook. Grader will need to paste their own API key in place of 'YOUR_API_KEY' in the code cell for Task 2. This will make it an environment variable for the whole notebook.
+- The default model ingoogle colab is set to gemini 2.5 flash lite which is now not supported. Grader will need to update the model to a gemini-flash-lite-latest in the response = client.models.generate_content section of the code for Task 2.
+- Task 4 contains the code for the offline fallback path which works in the absence of an API key. The findings.json file will ahve to be uploaded up google colab for this code to work.
+- The sample_output.txt file uploaded in this repo is for carrying out the numeric accuracy check by the grader. It will need to be uploaded to google colab for the code to work.
