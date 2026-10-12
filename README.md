@@ -1,21 +1,12 @@
 # Masai-Capstone-Project
-submission/
-├── README.md                        # This file. Gives a step-by-step guide to running the layers.
-├── sql/                             # One sql file. Create DB, schema, insert data & task reports.
-│   ├── schema_seed_data_and_reports.sql
-├── data/                            # The raw data from the brief converted into csv files.
-│   ├── customers.csv
-│   ├── products.csv
-│   └── orders.csv
-├── analysis/                        # One notebook with cleaning, EDA and visualisation tasks.
-│   ├── clean_eda_and_visualisations.ipynb 
-├── visualizations/                  # The charts plotted with the findings and labeled highlights.
-│   ├── return_rate_by_payment.png
-│   └── monthly_revenue_trend.png
-└── narrator/                        # The findings json, GenAI code notebook & AI sample output for running the numeric accuracy check.
-    ├── findings.json
-    └── generate_narrative.ipynb
-    └── sample_output.txt
+submissions/
+- README.md                                        # This file. Gives a step-by-step guide to running the layers.
+- sql/schema_seed_data_and_reports.sql             # One sql file. Create DB, schema, insert data & task reports.  
+- data/customers.csv, products.csv, orders.csv     # The raw data from the brief converted into csv files.
+- analysis/clean_eda_and_visualisations.ipynb      # One notebook with cleaning, EDA and visualisation tasks. 
+- visualizations/return_rate_by_payment.png, monthly_revenue_trend.png      # The charts plotted with the findings and labeled highlights.
+- narrator/ findings.json, generate_narrative.ipynb, sample_output.txt     # The findings json, GenAI code notebook & AI sample output for running the numeric accuracy check.
+    
 
 # Part 1 : SQL Relational Layer & Reporting
 - Download and open the schema_seed_data_and_reports.sql file on MySQL. This single file contains all the code for Tasks 1, 2 & 3.
