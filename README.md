@@ -18,14 +18,15 @@ submissions/
 - Each task wise code block will produce the outputs as specified in the brief.
 
 - # Part 2 — Python/Pandas Data Wrangling & EDA
-- Import clean_eda_and_visualisations.ipynb into a new google colab notebook. The code for cleaning, EDA and visualisations is all included in this single python file.
+- Download and Import clean_eda_and_visualisations.ipynb into a new google colab notebook. The code for cleaning, EDA and visualisations is all included in this single python file.
 - Upload the customers, products and orders csv files to the google colab files repository by clicking on the files icon on the left of the page.
 - Code for each task is in a separate cell with a # comment for the task name and requirement.
 - Running each cell once the csv files are uploaded will produce the outputs required by the brief.
+- CAUTION : Each cell will have to be run sequentially as the outputs from earlier cells feed subsequent cells in the data wrangling code pipeline.
 - Task 5 generates the findings.json file required for Part 3. The file generated while making the project is uploaded in this repo.
 
 - # Part 3 — GenAI-Powered Insight Narrator
-- Import generate_narrative.ipynb into a new google colab notebook. Grader will need to paste their own API key in place of 'YOUR_API_KEY' in the code cell for Task 2. This will make it an environment variable for the whole notebook.
+- Download and Import generate_narrative.ipynb into a new google colab notebook. Grader will need to paste their own API key in place of 'YOUR_API_KEY' in the code cell for Task 2. This will make it an environment variable for the whole notebook.
 - The default model ingoogle colab is set to gemini 2.5 flash lite which is now not supported. Grader will need to update the model to a gemini-flash-lite-latest in the response = client.models.generate_content section of the code for Task 2.
-- Task 4 contains the code for the offline fallback path which works in the absence of an API key. The findings.json file will ahve to be uploaded up google colab for this code to work.
-- The sample_output.txt file uploaded in this repo is for carrying out the numeric accuracy check by the grader. It will need to be uploaded to google colab for the code to work.
+- Task 4 contains the code for the offline fallback path which works in the absence of an API key. **NOTE** : The findings.json file will ahve to be uploaded up google colab for this code to work.
+- The sample_output.txt file uploaded in this repo is for carrying out the numeric accuracy check by the grader. **NOTE** : It will need to be uploaded to google colab for the code to work.
