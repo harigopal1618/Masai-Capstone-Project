@@ -8,13 +8,13 @@ submission/
 │   ├── products.csv
 │   └── orders.csv
 ├── analysis/                        # One notebook with cleaning, EDA and visualisation tasks.
-│   ├── clean_eda_and_visualisations.py 
+│   ├── clean_eda_and_visualisations.ipynb 
 ├── visualizations/                  # The charts plotted with the findings and labeled highlights.
 │   ├── return_rate_by_payment.png
 │   └── monthly_revenue_trend.png
 └── narrator/                        # The findings json, GenAI code notebook & AI sample output for running the numeric accuracy check.
     ├── findings.json
-    └── generate_narrative.py
+    └── generate_narrative.ipynb
     └── sample_output.txt
 
 # Part 1 : SQL Relational Layer & Reporting
@@ -27,6 +27,11 @@ submission/
 - Each task wise code block will produce the outputs as specified in the brief.
 
 - # Part 2 — Python/Pandas Data Wrangling & EDA
-- Import the clean_eda_and_visualisations.py into a new google colab notebook. The code for cleaning, EDA and visualisations is all included in this single python file.
-- Upload the customers, products and orders csv files to google colab.
+- Import the clean_eda_and_visualisations.ipynb into a new google colab notebook. The code for cleaning, EDA and visualisations is all included in this single python file.
+- Upload the customers, products and orders csv files to the google colab files repository by clicking on the files icon on the left of the page.
+- Code for each task is in a separate cell with a # comment for the task name and requirement.
+- Running each cell once the csv files are uploaded will produce the outputs required by the brief.
+- Task 5 generates the findings.json file required for Part 3. The file generated while making the project is uploaded in this repo.
+
+- # Part 3 — GenAI-Powered Insight Narrator
 - 
